@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "allowJs": false,
+        "outDir": "build"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
