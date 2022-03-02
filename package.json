@@ -1,0 +1,29 @@
+{
+    "name": "lemonui",
+    "version": "0.1.0",
+    "description": "Framework for GTA V that allows you to create and modify UI elements",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LemonUIbyLemon/LemonUI_TS.git"
+    },
+    "keywords": [
+        "gta",
+        "fivem",
+        "redm",
+        "ragemp",
+        "altv"
+    ],
+    "author": "Lemon",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LemonUIbyLemon/LemonUI_TS/issues"
+    },
+    "homepage": "https://github.com/LemonUIbyLemon/LemonUI_TS",
+    "dependencies": {
+        "@citizenfx/client": "^2.0.5369-1"
+    }
+}
