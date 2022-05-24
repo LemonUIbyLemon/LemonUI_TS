@@ -1,4 +1,3 @@
-interface IDrawable
-{
+export interface IDrawable {
     draw(): void;
 }

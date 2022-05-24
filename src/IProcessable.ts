@@ -1,5 +1,4 @@
-interface IProcessable
-{
+export interface IProcessable {
     visible: boolean;
     process(): void;
 }
