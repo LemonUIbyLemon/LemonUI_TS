@@ -1,0 +1,4 @@
+interface IRecalculable
+{
+    recalculate(): void;
+}
