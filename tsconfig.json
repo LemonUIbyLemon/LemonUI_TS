@@ -11,7 +11,7 @@
         "allowJs": false,
         "outDir": "build",
         "types": ["@citizenfx/client"],
-        "target": "ES5"
+        "target": "ES6"
     },
     "include": [
         "src/**/*"
