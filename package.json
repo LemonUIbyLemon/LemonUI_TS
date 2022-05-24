@@ -6,7 +6,8 @@
     "scripts": {
         "build": "tsc --build",
         "clean": "tsc --build --clean",
-        "lint": "eslint ./src/** -c .eslintrc.json"
+        "lint": "eslint ./src/** -c .eslintrc.json",
+        "fix": "eslint ./src/** -c .eslintrc.json --fix"
     },
     "repository": {
         "type": "git",
