@@ -27,5 +27,8 @@
     "dependencies": {
         "@citizenfx/client": "^2.0.5369-1",
         "typescript": "^4.6.2"
+    },
+    "devDependencies": {
+        "@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#v2.0"
     }
 }
