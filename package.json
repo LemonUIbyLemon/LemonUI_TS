@@ -25,10 +25,10 @@
     },
     "homepage": "https://github.com/LemonUIbyLemon/LemonUI_TS",
     "dependencies": {
-        "@citizenfx/client": "^2.0.5369-1",
         "typescript": "^4.6.2"
     },
     "devDependencies": {
+        "@citizenfx/client": "^2.0.5610-1",
         "@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#v2.0"
     }
 }
