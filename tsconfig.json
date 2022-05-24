@@ -10,7 +10,8 @@
         "sourceMap": true,
         "allowJs": false,
         "outDir": "build",
-        "types": ["@citizenfx/client"]
+        "types": ["@citizenfx/client"],
+        "target": "ES5"
     },
     "include": [
         "src/**/*"
