@@ -1,4 +1,3 @@
-interface IPredicate<T>
-{
-    (obj: T): boolean
+export interface IPredicate<T> {
+    (obj: T): boolean;
 }

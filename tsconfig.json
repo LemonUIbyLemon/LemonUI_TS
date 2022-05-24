@@ -3,7 +3,7 @@
         "allowUnreachableCode": false,
         "noImplicitOverride": true,
         "noImplicitReturns": true,
-        "module": "CommonJS",
+        "module": "esnext",
         "noImplicitAny": true,
         "removeComments": false,
         "preserveConstEnums": true,
@@ -11,9 +11,22 @@
         "allowJs": false,
         "outDir": "build",
         "types": ["@citizenfx/client"],
-        "target": "ES6"
+        "target": "ES6",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "skipLibCheck": true,
+        "strict": true,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "baseUrl": "src",
+        "incremental": true
     },
-    "include": [
-        "src/**/*"
-    ]
+    "include": ["src/**/*"]
 }

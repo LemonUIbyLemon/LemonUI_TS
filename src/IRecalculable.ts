@@ -1,4 +1,3 @@
-interface IRecalculable
-{
+export interface IRecalculable {
     recalculate(): void;
 }
